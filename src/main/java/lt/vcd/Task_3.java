@@ -30,7 +30,6 @@ public class Task_3 {
 
         double sumuSuma = 0.0;
         int max = sumos[0];
-        int hstudent = 0;
 
         System.out.println("Student averages: ");
         for (int g = 0; g < x; g++) {
@@ -38,9 +37,8 @@ public class Task_3 {
             sumuSuma += (double) sumos[g] / y;
             if (max < sumos[g]) {
                 max = sumos[g];
-                hstudent = g + 1;
             }
-            ;
+
         }
 
         System.out.println("Group average: ");
